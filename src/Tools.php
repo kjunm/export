@@ -15,6 +15,6 @@ class Tools
 
     public static function hello()
     {
-        echo 'Hello,world!';
+        echo 'wim Hello,world!';
     }
 }
