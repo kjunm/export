@@ -3,7 +3,7 @@
   "description": "This is component for export",
   "keywords": ["export","phpspreadsheet","Excel","csv"],
   "type": "library",
-  "licence": "BSD-3-Clause",
+  "licence": "MIT",
   "authors": [
     {
       "name": "wim",

@@ -7,6 +7,8 @@
  */
 namespace wim\export\demo;
 
+require_once __DIR__."/../../vendor/autoload.php";
+
 use wim\export\Tools;
 
 Tools::hello();
