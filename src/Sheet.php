@@ -94,19 +94,12 @@ class Sheet
 
     /**
      * set content
+     * @param array $data 数据
+     * @param integer $start 开始行数
      */
-    public function setContent()
+    public function setContent(array $data)
     {
-
+        $this->getActiveSheet()->fromArray($data,NULL,'A2');
     }
-
-
-
-
-
-
-
-
-
 
 }

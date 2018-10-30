@@ -30,5 +30,4 @@ abstract class SheetBuilder
      * 获取表格
      */
     public abstract function getResult();
-
 }
