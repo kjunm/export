@@ -23,7 +23,7 @@ class Sheet
      */
     public function __construct($path='')
     {
-        if(file_exists($path)){
+        if($path && file_exists($path)){
             $this->templatePath = $path;
         }
     }
