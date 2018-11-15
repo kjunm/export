@@ -59,7 +59,7 @@ class Sheet
     public function getActiveSheet()
     {
         if($this->spreadSheet == null){
-            $this->spreadSheet = $this->setSpreadSheet();
+            $this->setSpreadSheet();
         }
         return $this->spreadSheet->getActiveSheet();
     }
